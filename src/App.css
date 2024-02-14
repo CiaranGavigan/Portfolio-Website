@@ -153,7 +153,7 @@ span.navbar-text {
     transform: scale(1);
 }
 .social-icon a img {
-	width: 40%;
+	width: 60%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
@@ -312,15 +312,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 0 0 10px 0;
   position: relative;
 }
 .skill-bx {
   background: #151515;
-  border-radius: 64px;
+  border-radius: 24px;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
+  padding: 10px 20px;
+  margin-top: -20px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -340,7 +340,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item img {
   width: 50%;
-  margin: 0 auto 15px auto;
+  height: auto;
+  
+  margin: 0 auto 1px auto;
+  
 }
 .background-image-left {
   top: 28%;

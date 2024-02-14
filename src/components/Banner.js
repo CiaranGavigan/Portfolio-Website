@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
-import { ArrowCircleRight } from "react-bootstrap-icons";
-import { headerImg } from "../assets/img/header-img.svg";
+import { ArrowRightCircle } from 'react-bootstrap-icons';
+import  headerImg  from '../assets/img/header-img.svg';
 import { useState, useEffect } from "react";
 
 export const Banner = () => {
@@ -13,7 +13,7 @@ export const Banner = () => {
 
     useEffect(() => {
         let ticker = setInterval(() =>{
-            ticker();
+            tick();
         }, delta )
 
         return () => { clearInterval(ticker)};
@@ -48,7 +48,7 @@ export const Banner = () => {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Ciaran Gavigan`}<span className="Wrap">Software Developer</span></h1>
                         <p>This is a Test Description replace before production lalalalalalallllllllllllllllllllllllllllllllllllllll</p>
-                        <button onClick={()=> console.log('connect')}>Let's connect<ArrowCircleRight size={25}/></button>
+                        <button onClick={()=> console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                     <img src={headerImg} alt="Header Img"/>
