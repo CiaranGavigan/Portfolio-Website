@@ -315,12 +315,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 10px 0;
   position: relative;
 }
-.skill-bx {
+.skill-box {
   background: #151515;
   border-radius: 24px;
   text-align: center;
   padding: 10px 20px;
   margin-top: -20px;
+
 }
 .skill h2 {
 	font-size: 45px;
@@ -333,14 +334,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }
-.skill-slider {
+.skills-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
+  height: 10%;
 }
-.skill-slider .item img {
-  width: 50%;
-  height: auto;
+.skills-slider .item img {
+  width: 10%;
+  height: 10%;
   
   margin: 0 auto 1px auto;
   
